@@ -10,14 +10,18 @@
     <Version Condition=" '$(VersionSuffix)' == '' ">$(VersionPrefix)</Version>
     <AssemblyVersion>$(VersionPrefix).0</AssemblyVersion>
     <FileVersion>$(VersionPrefix).0</FileVersion>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageProjectUrl>https://connect.qred.com</PackageProjectUrl>
     <RepositoryUrl>https://github.com/qred/connect-clients</RepositoryUrl>
     <PackageReleaseNotes>Source repository. Fixed breaking changes made by IdentityModel.</PackageReleaseNotes>
   </PropertyGroup>
-
   <ItemGroup>
+    <None Include="LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)"/>
+  </ItemGroup>
+  <ItemGroup>
+    
     <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
     <!--
