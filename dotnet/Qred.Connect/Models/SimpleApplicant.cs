@@ -13,5 +13,6 @@ namespace Qred.Connect
         public string AdditionalName { get; set; }
 
         public string FamilyName { get; set; }
+        public bool? PrivacyPolicyAccepted { get; set; }
     }
 }

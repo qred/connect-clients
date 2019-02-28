@@ -11,5 +11,7 @@ namespace Qred.Connect
         public string Phone { get; set; }
 
         public Uri Url { get; set; }
+
+        public IntOrRange CurrentMonthlyTurnover { get ;set; }
     }
 }
