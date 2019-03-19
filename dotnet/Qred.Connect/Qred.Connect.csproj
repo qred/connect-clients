@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
 
-    <VersionPrefix>0.3.0</VersionPrefix>
+    <VersionPrefix>0.4.0</VersionPrefix>
     <VersionSuffix></VersionSuffix>
 
     <Version Condition=" '$(VersionSuffix)' != '' ">$(VersionPrefix)-$(VersionSuffix)</Version>
@@ -15,7 +15,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageProjectUrl>https://connect.qred.com</PackageProjectUrl>
     <RepositoryUrl>https://github.com/qred/connect-clients</RepositoryUrl>
-    <PackageReleaseNotes>Adding additional properties and fix turnover type.</PackageReleaseNotes>
+    <PackageReleaseNotes>Add code to error response.</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
     <None Include="LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)"/>

@@ -6,6 +6,6 @@ namespace Qred.Connect
     {
         public string Property { get; set; }
         public string Description { get; set; }
-
+        public string Code { get; set; }
     }
 }
